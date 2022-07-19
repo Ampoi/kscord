@@ -1,0 +1,5 @@
+database/*
+nohup.out
+.env
+node_modules/*
+nohup.out

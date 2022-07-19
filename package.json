@@ -1,0 +1,18 @@
+{
+  "name": "kscord",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js",
+    "commit": "git add . && git commit",
+    "deploy": "git push origin master",
+    "serve": "nohup node index.js &"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^0.4.1",
+    "axios": "^0.27.2",
+    "discord-api-types": "^0.32.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.1",
+    "nedb": "^1.8.0"
+  }
+}
